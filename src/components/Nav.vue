@@ -23,16 +23,18 @@ export default {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-secondary" aria-current="page" href="#header">Inicio</a>
+                        <router-link to="/" class="nav-link text-secondary" aria-current="page">Inicio</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#skills">Mis Habilidades</a>
+                        <router-link to="/about" class="nav-link text-secondary" aria-current="page">Mis
+                            Habilidades</router-link>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-secondary" aria-current="page" href="#project">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#contact">Contacto</a>
+                        <router-link to="/contact" class="nav-link text-secondary"
+                            aria-current="page">Contacto</router-link>
                     </li>
                 </ul>
             </div>
